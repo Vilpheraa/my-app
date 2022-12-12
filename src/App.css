@@ -1,0 +1,439 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+/* .Header {
+  background-color: #282c34;
+  
+  display: flex;
+  width: 100%;
+  height: 70px;
+  /* border: 1px solid rgb(110, 109, 10); */
+  /* align-items: center;
+  justify-content: space-between;
+  background-color: rgb(247, 247, 247) ;
+} */
+/* .nav-items {
+  /* border: 1px solid; */
+
+.signup-box {
+  margin-top: 10px;
+  border: none;
+  display: block;
+  width: 400px ;
+  height: 600px ;
+  justify-content: space-around;
+  padding-left: 2.5%;
+  position: absolute;
+  left: 35%;
+  
+}
+.fa-fa-signin{
+  height: 30px ;
+  width: 350px;
+  border: 1px solid;
+  margin-top: 10px;
+  color: black;
+  align-items: center;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+.fa-fa-signin:hover {
+  background-color: rgb(241, 241, 241);
+}
+.signup-input{
+  height: 50px ;
+  width: 355px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 10px;
+  color: black;
+ 
+}
+.login-head {
+  font-weight: bold;
+}
+.signin-button{
+  height: 50px ;
+  width: 373px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: rgb(167, 39, 167);
+  border: none;
+ 
+}
+.signin-button:hover {
+  background-color: rgb(141, 24, 141);
+}
+.f-password{
+  margin-left: 100px;
+}
+.f-class {
+  margin-top: 35px;
+  margin-left: 60px;
+}
+.a-purple{
+  color: rgb(134, 38, 134);
+   font-weight: bold;
+}
+.a-purple:hover {
+  color: rgb(107, 22, 107);
+ 
+}
+
+
+.Header {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  justify-content: space-around;
+  align-content: center;
+}
+.udemy-logo {
+  margin-left: 5px;
+}
+.header-image {
+  display: block;
+}
+.header-input {
+  width: 700px;
+  margin-left: 50px;
+  align-items: center;
+  justify-content: space-between;
+  display: inline-block;
+}
+.search-input {
+  padding-left: 20px;
+  font-size: 15px;
+  width: 550px;
+  height: 50px;
+  border-radius: 24px;
+  border: 1px solid;
+  background-color: rgba(168, 168, 168, 0.2);
+}
+.boxes {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  margin-right: 10px;
+  
+}
+.boxes .signin {
+  border: 1px solid;
+  width: 80px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: white;
+  margin-left: 10px;
+}
+.boxes .signin.dark {
+  background-color: black;
+  color: white;
+  height: 43px;
+}
+.boxes .signin.box {
+  width: 40px;
+}
+.nav-text {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin-left: 25px;
+  color: black;
+  margin-right: 10px;
+}
+.header-input .nav-text.one {
+  margin-right: 10px;
+  position: relative;
+}
+.first-section {
+  display: flex;
+  width: 100%;
+  align-items:center;
+  justify-content:center;
+
+}
+.first-section .begining-box {
+  position: absolute;
+  margin-top: -10%;
+  width: 400px;
+  height: 120px;
+  padding-left: 15px;
+  margin-right: 50%;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 13px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+}
+.first-section .begining-box .span1 {
+  font-size: 30px;
+  font-weight: 1000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 30px;
+}
+.first-section .main-svg .begining-image {
+  width: 100%;
+  
+}
+@media screen and (max-width: 1069px){
+  .search-input {
+    padding-left: 20px;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    background-color: rgba(168, 168, 168, 0.2);
+  }
+  .header-input {
+    width: 500px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+  }
+  .nav-text.two {
+    display: none;
+  }
+  .nav-text.three {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 1374px){
+  .search-input {
+    padding-left: 20px;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    background-color: rgba(168, 168, 168, 0.2);
+  }
+  .header-input {
+    width: 500px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+  }
+  
+  .nav-text.three {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 1204px){
+  .search-input {
+    padding-left: 20px;
+    font-size: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    background-color: rgba(168, 168, 168, 0.2);
+  }
+  .header-input {
+    width: 550px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    
+  }
+ 
+  
+}
+@media screen and (max-width: 1144px){
+  .search-input {
+    padding-left: 20px;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    background-color: rgba(168, 168, 168, 0.2);
+  }
+  .header-input {
+    width: 550px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    
+  }
+ 
+  
+}
+
+
+
+@media screen and (max-width: 950px){
+  .search-input {
+    padding-left: 20px;
+    font-size: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    background-color: rgba(168, 168, 168, 0.2);
+  }
+  .header-input {
+    width: 500px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    
+    
+  }
+ 
+  
+}
+@media screen and (max-width: 770px){
+  .search-input {
+    padding-left: 20px;
+    font-size: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    background-color: rgba(168, 168, 168, 0.2);
+  }
+  .header-input {
+    width: 500px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    
+    
+  }
+
+  .nav-text.three {
+    display: none;
+  }
+  .udemy-logo {
+    margin-left: 10px;
+  }
+  .first-section .begining-box {
+    position: absolute;
+    margin-top: -10%;
+    width: 400px;
+    height: 120px;
+    padding-left: 15px;
+    display: none;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    margin-left: 10px;
+  }
+  
+}
+@media screen and (max-width: 850px){
+  .search-input {
+    padding-left: 20px;
+    font-size: 15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 24px;
+    border: 1px solid;
+    background-color: rgba(168, 168, 168, 0.2);
+  }
+  .header-input {
+    width: 500px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    
+    
+  }
+
+  .nav-text.three {
+    display: none;
+  }
+  
+}
+.second-section {
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  
+  padding:2px;
+  margin:0 auto;
+  justify-content: space-around;
+ 
+}
+.second-section .span2 {
+  font-size: 35px;
+  font-weight: 800;
+}
+.second-section .span3 {
+  padding-top: 10px;
+  font-size: 23px;
+}
+.second-section .mini-nav {
+  margin-top: 10px;
+  width: 60%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-section .mini-nav .mini-element {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+}
+.second-section .mini-nav .mini-element:hover {
+  color: black;
+}
+.ss-div {
+ 
+  margin: 0 auto;
+  width: 85%;
+
+}
+.thirdsection{
+  
+}
+.box1 {
+  border: 1px solid rgb(146, 146, 146);
+  
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.span4{
+  font-size: 30px;
+  font-weight: bold;
+}
+.span5{
+ padding-top: 5px;
+}
+.trd-btn {
+  margin-top: 10px;
+  border: 1px solid;
+  width: 120px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: white;
+  cursor: pointer;
+}
+.trd-btn:hover {
+  background-color: aliceblue;
+}
